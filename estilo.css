@@ -1,0 +1,166 @@
+/* Configurações Gerais */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "Facebook";
+	src: url('fontes/SocialLogos.woff');
+}
+
+body {
+	background: #f0f2f5;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+input:focus {
+	box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+/* Configuração do logo Facebook e texto */
+
+#facebook {
+	position: absolute;
+	left: 185px;
+	top: 190px;
+	width: 550px;
+	height: 200px;
+}
+
+#facebook h1 {
+	font-family: "Facebook";
+	color: #1877f2;
+	font-size: 80px;
+	line-height: 80px;
+}
+
+#facebook p {
+	font-size: 28px;
+	line-height: 30px;
+	margin-top: 5px;
+}
+
+/* Configuração do campo de login */
+
+#login {
+	position: absolute;
+	left: 745px;
+	top: 130px;
+	width: 400px;
+	height: 350px;
+	background: #fff;
+	margin-left: 20px;
+	border-radius: 10px;
+	z-index: 2;
+	box-shadow: 0 0 50px rgba(192, 196, 201, 0.1);
+}
+
+#login input {
+	width: 370px;
+	height: 55px;
+	border-radius: 7px;
+	border: 1px solid rgb(221, 223, 226);
+	z-index: 2;
+	text-indent: 20px;
+	font-size: 16px;
+	color: #636b65;
+	box-shadow: 0 0.2px 0 0 rgb(192, 196, 201) inset;
+	line-height: 16px;
+}
+
+#login input:focus {
+	border-color: #4a94f5;
+	color: rgb(221, 223, 226);
+}
+
+#input-email {
+	position: relative;
+	border: rgb(221, 223, 226);
+	margin: 15px 15px 10px 15px;
+}
+
+#input-senha {
+	position: relative;
+	margin: 0px 15px 10px 15px;
+}
+
+button {
+	width: 370px;
+	height: 50px;
+	margin: 0 15px 15px 15px;
+	background: #1877f2;
+	border-radius: 10px;
+	border: none;
+	font-size: 20px;
+	color: #fff;
+	/*font-weight: bold;*/
+	cursor: pointer;
+}
+
+#login a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #4a94f5;
+	font-size: 14px;
+}
+
+#login a:hover {
+	text-decoration: underline;
+}
+
+/* Configuração botão Criar Conta */
+
+#login #criar-conta {
+	position: relative;
+	left: 20px;
+	border-top: 1px solid rgb(221, 223, 226);
+	margin-top: 20px;
+	width: 360px;
+}
+
+#login #criar-conta a, a:visited {
+	position: relative;
+	left: 100px;
+	background: #42b72a;
+	text-decoration: none;
+	color: #fff;
+	height: 50px;
+	width: 160px;
+	margin: 20px 0;
+	line-height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+#login #criar-conta a:hover {
+	background: #3EA621;
+}
+
+/* Configurando rodapé login */
+
+#rodape-login {
+	position: absolute;
+	left: 753px;
+	top: 485px;
+	margin-top: 20px;
+	font-size: 14px;
+	margin-left: 15px;
+}
+
+#rodape-login a, #rodape-login a:visited {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#rodape-login a:hover {
+	text-decoration: underline;
+}
